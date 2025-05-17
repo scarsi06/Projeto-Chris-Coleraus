@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset-"utf-8">
+        <meta name ="viewport" content-"width-device-width,initial-scale=1.0" />
+        <title>Chris Coleraus - micropigmentação / estética</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Chris Coleraus - micropigmentação / estética</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Galeria">Galeria</a></li>
+                    <li><a href="#Agendamento">Agendamento</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="#Sobre">
+            <h2>Sobre</h2>
+            <p>Chris Coleraus é uma profissional de estética e micropigmentação, que trabalha há 10 anos na área. É especialista em micropigmentação, tratamento de contornos, peeling, estética facial e estética de pele. </p></p>
+            <p>Minha missão é ajudas pessoas a ter autoestima elevada.</p>
+            <p>Nossos valores são autoestima, saúde, beleza e acreditar em si mesmo.</p>
+        </section>
+
+        <section id="#Galeria">
+            <h2>Galeria</h2>
+            <p>Imagens de estética e micropigmentação</p>
+            <!--AQUI VAI AS IMAGENS DOS ATENDIMENTOS ( POR AGR SO ILUSTRAÇÃO )-->
+            <img src="img/estetica.jpg" alt="estetica">
+            <img src="img/micropigmentacao.jpg" alt="micropigmentacao"></h2>
+        </section>
+
+        <section id="agendamento">
+    <h2>Agendamento</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="servico">Serviço:</label>
+      <select id="servico" name="servico">
+        <option value="limpeza">Limpeza de pele</option>
+        <option value="massagem">Massagem relaxante</option>
+        <option value="sobrancelha">Design de sobrancelhas</option>
+      </select>
+
+      <label for="data">Data:</label>
+      <input type="date" id="data" name="data" required />
+
+      <input type="submit" value="Agendar" />
+    </form>
+  </section>
+
+  <section id="cadastro">
+    <h2>Cadastro</h2>
+    <form id="form-cadastro">
+      <label for="nomeCadastro">Nome:</label>
+      <input type="text" id="nomeCadastro" name="nomeCadastro" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <input type="submit" value="Cadastrar" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chris Coleraus - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
